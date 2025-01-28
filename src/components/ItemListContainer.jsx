@@ -1,4 +1,4 @@
-const ItemListContainer = () => {
+const ItemListContainer = ({greeting}) => {
   const containerStyle = {
     display: "flex",
     justifyContent: "center",
@@ -9,7 +9,7 @@ const ItemListContainer = () => {
 
   return (
     <div style={containerStyle}>
-      <h2>Bienvenidos Amigurumis By Coni</h2>
+      <h2>{greeting}</h2>
     </div>
   );
 };
